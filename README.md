@@ -4,6 +4,12 @@ Android-приложение на Jetpack Compose: живые котировки
 
 Поток: `wss://data-stream.binance.vision/ws`.
 
+## Демо
+
+<video src="https://github.com/Stereodit/WebSocketExample/releases/download/demo/websocket-demo.mp4" width="720" controls playsinline></video>
+
+[Открыть видео](docs/websocket-demo.mp4)
+
 ## Экраны
 
 **Рынок.** Одно соединение подписывается на `miniTicker` шести пар: BTC, ETH, SOL, BNB, XRP и DOGE. На экране цена, изменение за 24 часа, объём, состояние сокета и короткий журнал handshake. Кнопка обрывает поток и поднимает его снова.
